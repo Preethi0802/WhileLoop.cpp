@@ -1,0 +1,22 @@
+#include<iostream>                                                                                    1
+using namespace std;                                                                                  23
+                                                                                                      345
+                                                                                                      4567
+int main(){                                                                                           56789
+
+  int j,n,i=1,k=1;
+  cin>>n;
+  while(i<=n){
+       j=1;
+	   k=i;
+      while(j<=i){
+          cout<<k;
+          k++;
+          j++;
+      }
+      cout<<endl;
+      i++;
+  }
+}
+
+
